@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+# :waxing_crescent_moon: Star Wars Galaxy-Travel
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p float="left">
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
+<img src="https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white"/>
+<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
+<img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E"/>
+<p/>
 
-## Available Scripts
+## :page_with_curl: Sobre 
 
-In the project directory, you can run:
+Projeto que tem como objetivo mostrar o número de paradas que uma starship no universo de Star Wars necessitaria para chegar no destino informado em MGLT's (Megalights). O usúario informa a distância em megalights que deseja conferir e o sistema exibe em uma grid, todas as starships com suas devidas informações e número necessário de paradas.
 
-### `yarn start`
+## :movie_camera: Demonstração 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![App preview](/public/preview.gif)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## :computer: **Start** 
 
-### `yarn test`
+👇 Use o comando abaixo para _instalar_ todas as depêndencias na raiz do projeto
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    yarn install
+    
+👇 Use o comando abaixo para _rodar_ o projeto
 
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+    yarn start
+    
+ ---
+ ## :mag_right: Social medias
+[![Instagram Badge](https://img.shields.io/badge/Matheus%20Miranda-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&link=https://www.linkedin.com/in/matheusmdsm/)](https://www.linkedin.com/in/matheusmdsm/)
+[![Instagram Badge](https://img.shields.io/badge/matheusmdsm-E4405F?style=for-the-badge&logo=instagram&logoColor=white&link=https://www.instagram.com/matheusmdsm/)](https://www.instagram.com/matheusmdsm/)
+[![Twitter Badge](https://img.shields.io/badge/mattheusmdsm-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white&link=https://twitter.com/mattheusmdsm)](https://twitter.com/mattheusmdsm)
+[![Codepen Badge](https://img.shields.io/badge/mtmiranda-000000?style=for-the-badge&logo=codepen&logoColor=white&link=https://codepen.io/mtmiranda)](https://codepen.io/mtmiranda)
