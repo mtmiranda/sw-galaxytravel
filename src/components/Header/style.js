@@ -5,7 +5,6 @@ export const HeaderWrapper = styled.div`
 `
 
 export const Content = styled.div`
-
     max-width: 1120px;
     margin: 0 auto;
     padding: 2rem 1rem 5rem;
@@ -14,6 +13,5 @@ export const Content = styled.div`
     align-items: center;
     justify-content: center;
     color: var(--yellow-brand);
-    font-family: Starjhol, sans-serif;
-
+    font-family: Starjedi, sans-serif;
 `
