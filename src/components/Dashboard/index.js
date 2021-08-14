@@ -1,10 +1,9 @@
 import React, { useEffect, useState } from 'react'
-import { Content, DashboardWrapper } from './style'
+import { Content, DashboardWrapper, Cards, Card } from './style'
 import moment from 'moment'
 
 import { api } from '../../config/api'
 import SearchBar from '../SearchBar'
-import { Cards, Card } from '../SearchBar/style'
 
 function Dashboard() {
     const [starships, setStarships] = useState([])
@@ -30,7 +29,8 @@ function Dashboard() {
         return Math.floor(stops)
     }
 
-    const handleSearchButton = () => {
+    const handleSearchButton = (event) => {
+        event.preventDefault()
         if (!Number(searchValue)) {
             const message = 'Not a number, please insert a valid distance :)'
             alert(message)
@@ -73,9 +73,11 @@ function Dashboard() {
                 ) : (
                     <>
                         <span>
-                            Distance:{' '}
-                            {new Intl.NumberFormat('pt-BR', {
-                            }).format(searchValue)} MGLT's
+                            Distance:
+                            {new Intl.NumberFormat('pt-BR', {}).format(
+                                searchValue
+                            )}{' '}
+                            MGLT's
                         </span>
                         <Cards>
                             {starships.map((item) => (
