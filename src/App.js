@@ -1,10 +1,15 @@
 import React from 'react'
+
 import styled from 'styled-components'
 
 import Header from './components/Header'
-import Dashboard from './components/Dashboard';
+import Dashboard from './components/Dashboard'
+
+// import 'bootstrap/dist/css/bootstrap.min.css'
+
 import { GlobalStyle } from './styles/global'
-import './styles/font.css';
+import './styles/font.css'
+import Footer from './components/Footer'
 
 const Container = styled.div`
     display: flex;
@@ -17,7 +22,8 @@ function App() {
         <Container>
             <GlobalStyle />
             <Header />
-            <Dashboard/>
+            <Dashboard />
+            <Footer />
         </Container>
     )
 }
