@@ -8,7 +8,7 @@ function SearchBar(props) {
     }
     return (
         <InputWrapper>
-            <div>
+            <form>
                 <label htmlFor="mglt">
                     Insert a distance (mglt) to calculate:
                 </label>
@@ -19,9 +19,14 @@ function SearchBar(props) {
                     value={props.value}
                     onChange={handleChange}
                 />
-            </div>
 
-            <button onClick={props.onClick}>Calculate</button>
+                <button onClick={props.onClick}>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>Calculate
+                </button>
+            </form>
         </InputWrapper>
     )
 }
