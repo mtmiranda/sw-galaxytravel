@@ -3,6 +3,7 @@ import styled from 'styled-components'
 export const DashboardWrapper = styled.main`
     padding: 20px;
     flex: 1;
+    position: relative;
 `
 
 export const Content = styled.div`
