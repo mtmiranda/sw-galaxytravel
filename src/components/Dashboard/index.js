@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react'
-import { Content, DashboardWrapper, Cards, Card } from './style'
 import moment from 'moment'
 
 import { api } from '../../config/api'
 import SearchBar from '../SearchBar'
+import { Content, DashboardWrapper, Cards, Card } from './style'
 
 function Dashboard() {
     const [starships, setStarships] = useState([])
