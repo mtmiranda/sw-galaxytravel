@@ -6,9 +6,9 @@ import {
     faInstagram,
     faLinkedinIn,
 } from '@fortawesome/free-brands-svg-icons'
+import { faJedi } from '@fortawesome/free-solid-svg-icons'
 
 import { FooterWrapper } from './style'
-import { faJedi } from '@fortawesome/free-solid-svg-icons'
 
 function Footer() {
     return (
